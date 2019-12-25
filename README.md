@@ -86,6 +86,7 @@ Sample Output:
 Problem Requirements:
 
 C
+
 Keyword	 Min Count 	Max Count
 
 [         0          0
