@@ -95,4 +95,128 @@ Keyword 	Min  Count 	Max Count
 
 ]	          0	         0
 
+# SPIKES DETECTION
 
+Write a program to find the number of spikes, the origination of a spike and its span in a dc signal sample.
+
+ 
+
+A spike in this case is assumed to be a segment where the signal increases to a point and then decreases (or vice versa). The point from where it starts increasing and decreasing (or vice versa) and back to the stable point is said to be the span of spike.
+Input and Output Format:
+
+ 
+
+Input consists of n+1 integers.
+
+ 
+
+The 1st integer corresponds to n, the number of signal sample values.
+
+The next n integers correspond to the signal sample values in order.
+
+ 
+
+Output consists of the number of spikes and the origin and span of each spike.
+Assume that the maximum number of spikes in the input signal is 20.
+
+If there are multiple spikes, print the spike details in the order in which they appear in the signal.
+
+Refer sample output for formatting specifications.
+
+ 
+
+Sample Input 1:
+
+16
+
+50
+
+50
+
+50
+
+50
+
+50
+
+60
+
+70
+
+80
+
+70
+
+60
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+ 
+
+Sample Output 1:
+
+1
+
+5 7
+ 
+
+Sample Input 2:
+20
+
+1          
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+4 
+
+3 
+
+2 
+
+1 
+
+1 
+
+0 
+
+-1 
+
+-2 
+
+-3 
+
+-1 
+
+1 
+
+1 
+
+1 
+
+1
+
+Sample Output 2:
+
+2
+
+2 9
+
+11 7
