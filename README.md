@@ -220,3 +220,85 @@ Sample Output 2:
 2 9
 
 11 7
+
+# REMOVING UNNECESSARY TOWERS
+
+Pakshirajan needs to find out the unnecessary towers located in the same region to file a case in the court. He found that the cell phone towers are arranged in a straight line.
+Given the number of towers n, distance at which each tower is located, and the signal  coverage range of each tower. Find the towers that are located unnecessarily. Print -1 if no unnecessary tower are there.
+
+Input Format:
+
+First line of input is an integer corresponding to the number of towers
+
+Next line of inputs are the integers referring to the distance in which the towers are located
+
+Next line of inputs are the integers referring to the  range of towers
+
+Output Format:
+
+The output are the integers corresponding to the distance of the unnecessary towers.
+Note: The output should be displayed in increasing order.
+
+
+Sample Input 1:
+
+6
+
+10 30 200 2 150 170
+
+20 30 40 5 20 10
+
+Sample Output 1:
+
+2
+
+170
+
+Sample Input 2:
+
+4
+
+10 30 200 150
+
+20 30 40 20
+
+Sample Output 2:
+
+-1
+
+Explanation for sample 1:
+
+The first array denotes the distance at which each towers are located.
+
+The second array denotes the coverage range of each tower. For example, if the distance is 200 and the coverage range is 40, it's radiation range is from 160 to 240 kms.
+
+The problem is to find the towers that are having the radiation range within the radiation range of other towers.
+
+Listing below the radiation range of each tower:
+
+1) Tower at distance 10 kms has the range of 20 kms. So it can cover from -10 to 30 kms.
+
+2) Tower at distance 30 kms has the range of 30 kms. So it can cover from 0 to 60 kms.
+
+3) Tower at distance 200 kms has the range of 40 kms. So it can cover from 160 to 240 kms.
+
+4) Tower at distance 2 kms has the range of 5 kms. So it can cover from -3 to 7 kms.
+
+5) Tower at distance 150 kms has the range of 20 kms. So it can cover from 130 to 170 kms.
+
+6) Tower at distance 170 kms has the range of 10 kms. So it can cover from 160 to 180 kms.
+
+From the ranges that are mentioned above, we can see that tower at 2 kms, is completely within the range of the tower at 10 kms, and the tower at 170 kms is completely within range of the tower at 200 kms. So the output is 2 and 170.
+
+Additional Sample TestCases
+Sample Input and Output 1 :
+
+6
+
+10 30 200 2 150 170
+
+20 30 40 5 20 10
+
+2
+
+170
