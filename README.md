@@ -422,4 +422,50 @@ Sample Input 4:
 Sample Output 4:
 2
 
+ # DISTANCE BETWEEN 2 POINTS
  
+ Mrs. Anitha , our favourite Maths teacher wanted to teach her new batch of students to find the distance between 2 points.
+Write a program to accept 2 points and to calculate distance between them using functions and pointers.
+ 
+Function Specification:
+
+float distance(int *x1, int *y1, int *x2, int *y2)
+
+This function returns the distance between two points.
+ 
+Input Format: 
+
+Input consists of 4 integers.
+
+The first 2 integers refers to x and y coordinate of Point 1
+
+The next 2 integers refers to x and y coordinate of Point 2
+ 
+Output Format: 
+
+Output consists of 1 float. Display the output correct to 2 decimal places.
+
+
+Sample Input and Output:
+
+Enter x1
+
+2
+
+Enter y1
+
+3
+
+Enter x2
+
+4
+
+Enter y2
+
+1
+
+Distance between 2 points is 2.83
+
+Function Definitions:
+
+float distance (int *, int *, int *, int *) 
