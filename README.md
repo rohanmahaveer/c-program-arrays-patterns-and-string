@@ -469,3 +469,37 @@ Distance between 2 points is 2.83
 Function Definitions:
 
 float distance (int *, int *, int *, int *) 
+
+# ILLUSTRATION OF POINTER
+
+Few of the students in a class started playing game during their leisure hour. In this game, there were cards with numbers written on it. Each person need to pick 2-cards from this set. The two-cards are denoted as A and B. The goal of the game is to modify the value of A and B. A should be modified as absolute sum of A and B and B should be modified as absolute difference between A and B. The resultant A and B should always be positive.
+
+Write a program to find the modified values of A and B to accomplish this goal using functions and pointers.
+
+Function specifications:
+
+void changeValue(int *a, int *b)
+
+This function changes the value of A and B as per problem description.
+ 
+Input Format:
+
+Input will contain two integers, A and B.
+ 
+Output Format:
+
+Print the updated value of A and B.
+
+Refer sample input and output for formatting specifications.
+
+Sample Input:
+
+5
+
+7
+
+Sample Output:
+
+12
+
+2
