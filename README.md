@@ -540,3 +540,33 @@ a = 5 b = 3
 After swapping
 
 a = 3 b = 5
+
+# FINDING GCD AND LCM
+
+Write a program to find the GCD and LCM of two numbers using functions.
+
+INPUT AND OUTPUT FORMAT:
+
+Input consists of two integers corresponding to two values.
+
+Output consists of two integers corresponding to GCD and LCM of the two numbers.
+
+SAMPLE INPUT AND OUTPUT:
+
+Enter two integers:
+
+3
+
+9
+
+Greatest common divisor of 3 and 9 = 3
+
+Least common multiple of 3 and 9 = 9
+
+
+Function Definitions:
+
+int GCD (int,int) 
+
+int LCM (int,int) 
+
