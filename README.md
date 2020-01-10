@@ -570,3 +570,70 @@ int GCD (int,int)
 
 int LCM (int,int) 
 
+# FUNCTIONS - MATRIX MAXIMUM
+
+Write a program to find the maximum element in a matrix using functions.
+
+ 
+
+Refer function specifications for the function details.
+
+The first argument corresponds to the pointer to the matrix.
+
+The second argument corresponds to the number of rows in the matrix.
+
+The third argument corresponds to the number of columns in the matrix.
+
+ 
+
+ 
+
+Input and Output Format:
+
+Assume that the maximum number of rows and columns in the matrix is 10.
+
+Refer sample input and output for formatting specifications.
+
+All text in bold corresponds to input and the rest corresponds to output.
+
+ 
+
+Sample Input and Output :
+
+Enter the number of rows in the matrix
+
+3
+
+Enter the number of columns in the matrix
+
+2
+
+Enter the elements in the matrix
+
+2
+
+4
+
+1
+
+3
+
+5
+
+9
+
+The matrix is
+
+2 4
+
+1 3
+
+5 9
+
+The maximum element in the matrix is 9
+
+ 
+
+Function Definitions:
+
+int findMax (int **a, int m, int n) 
