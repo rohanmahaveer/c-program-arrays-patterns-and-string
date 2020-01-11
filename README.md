@@ -637,3 +637,78 @@ The maximum element in the matrix is 9
 Function Definitions:
 
 int findMax (int **a, int m, int n) 
+
+
+# IMAGE ENLARGER
+
+Problem Statement
+
+Given an image as a 2-D character array or a string [], scale it up by factor. That is, if the original image is M x N, the scaled image should be (M*factor) x (N*factor). Each character in the input should be represented by factor x factor of the same character in the output (see examples).
+
+ 
+
+Constraints
+
+- Range of M and N will be between 1 and 50 elements, inclusive.
+
+- Each character in image will have ASCII value between 32 and 126, inclusive.
+
+- Factor will be between 0 and 50, inclusive.
+
+- The output will contain at most 7500 characters.
+
+ 
+
+Input and Output Format:
+
+The first line of the input consists of an integer that corresponds to M.
+
+The second line of the input consists of an integer that corresponds to N.
+
+The next M lines of the input corresponds to the image.
+
+The last line of the input consists of an integer that corresponds to the factor.
+
+ 
+
+Output consists of the scaled up image.
+
+Refer sample output for formatting specifications.
+
+ 
+
+Sample Input:
+
+3
+
+3
+
+abc
+
+def
+
+ghi
+
+3
+
+ 
+
+Sample Output:
+
+aaabbbccc
+
+aaabbbccc
+
+aaabbbccc
+
+dddeeefff
+
+dddeeefff
+
+dddeeefff
+
+ggghhhiii
+
+ggghhhiii
+
+ggghhhiii
