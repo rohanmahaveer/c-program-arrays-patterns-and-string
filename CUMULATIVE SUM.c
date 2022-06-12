@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[15],c[15],i,n,sum=0;
+	int a[1000],c[1000],i,n,sum=0;
 	printf("Enter the number of elements in an array\n");
 	scanf("%d",&n);
 	printf("Enter the array elements\n");
